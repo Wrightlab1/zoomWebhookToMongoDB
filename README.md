@@ -123,7 +123,7 @@ This app uses Winston for logging. You can find log files in `./logs/file.log-er
 There are routes available to fetch data from the database and return it.
 
 |Description                                   |endpoint       |Method|Body                                        |
-|------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------|---------------|------|--------------------------------------------|
 |Fetch data from DB that matches Key,Value Pair|`/webhooks`    |`GET` |`{"key" : "keyName", "value" : "valueName"}`|
 |Fetch all data from the DB                    |`/webhooks/all`|`GET|`| None Required                              |
 
