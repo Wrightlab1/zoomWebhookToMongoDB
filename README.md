@@ -125,5 +125,5 @@ There are routes available to fetch data from the database and return it.
 |Description                                   |endpoint       |Method|Body                                        |
 |----------------------------------------------|---------------|------|--------------------------------------------|
 |Fetch data from DB that matches Key,Value Pair|`/webhooks`    |`GET` |`{"key" : "keyName", "value" : "valueName"}`|
-|Fetch all data from the DB                    |`/webhooks/all`|`GET|`| None Required                              |
+|Fetch all data from the DB                    |`/webhooks/all`|`GET`| None Required                              |
 
