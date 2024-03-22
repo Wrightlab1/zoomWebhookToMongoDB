@@ -16,13 +16,13 @@ This is a Node.js / Express server that receives [Zoom Platform Webhooks](https:
 
 In terminal, run the following command to clone the repo:
 
-`$ git clone LINK HERE`
+`$ git clone https://github.com/Wrightlab1/zoomWebhookToMongoDB.git`
 
 ## Setup
 
 1. In terminal, cd into the cloned repo:
 
-   `$ cd DirectoryHERE
+   `$ cd ZoomWebhookstoMongoDB`
 
 1. Then install the dependencies:
 
