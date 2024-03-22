@@ -116,5 +116,14 @@ In terminal, run the following command to clone the repo:
    }
    ```
 
-## Deployment
+## Logging
+This app uses Winston for logging. You can find log files in `./logs/file.log-error.log` and `./filelog-info.log` These logs are very verbose and should allow you to troubleshoot any issue with the application. Winston is configurable from the `.env` file. To add a configuration add `LOG_LEVEL = 'value'` Accepted values are `info, debug, error`
+
+## Routes
+There are routes available to fetch data from the database and return it.
+
+|Description                                   |endpoint       |Method|Body                                        |
+|------------------------------------------------------------------------------------------------------------------|
+|Fetch data from DB that matches Key,Value Pair|`/webhooks`    |`GET` |`{"key" : "keyName", "value" : "valueName"}`|
+|Fetch all data from the DB                    |`/webhooks/all`|`GET|`| None Required                              |
 
